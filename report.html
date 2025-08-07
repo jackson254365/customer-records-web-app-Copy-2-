@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Records Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Customer Records</h1>
+    <input type="text" id="search-input" placeholder="Search by name...">
+    <button onclick="window.print()">Print to PDF</button>
+    <a href="index.html">Add New Customer</a>
+    <table id="customer-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID Number</th>
+                <th>Phone Number</th>
+                <th>Service</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Customer data will be inserted here -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

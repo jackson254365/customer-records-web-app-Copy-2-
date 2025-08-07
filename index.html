@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Enter Customer Information</h1>
+    <form id="customer-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="id-number">ID Number:</label>
+        <input type="text" id="id-number" required>
+        <label for="phone-number">Phone Number:</label>
+        <input type="text" id="phone-number" required>
+        <label for="service">Service:</label>
+        <select id="service" required>
+            <option value="Deposit">Deposit</option>
+            <option value="Withdraw">Withdraw</option>
+            <option value="Shop">Shop</option>
+        </select>
+        <button type="submit">Save Customer</button>
+    </form>
+    <a href="report.html">View Customer Report</a>
+    <script src="script.js"></script>
+</body>
+</html>

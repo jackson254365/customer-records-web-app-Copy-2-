@@ -1,0 +1,6 @@
+starting the node server :
+# simplest
+node server.js
+
+# or with auto-reload
+npx nodemon server.js
